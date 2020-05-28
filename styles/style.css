@@ -1,0 +1,94 @@
+* {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 0.6px
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea {
+  margin-top: 50px;
+  height: 140px;
+  width: 716px;
+}
+
+.keyboard {
+  margin-top: 10px;
+  background: none;
+  width: 716px;
+  display: flex;
+  flex-direction: column;
+}
+
+.keyboard-keys {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.keyboard-key {
+  height: 42px;
+  width: 6%;
+  max-width: 332px;
+  margin: 4px 2px;
+  border-radius: 3px;
+  border: none;
+  background: #3a424e;
+  color: #ffffff;
+  outline: none;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  vertical-align: top;
+  padding: 0;
+  position: relative;
+}
+
+.functional-key {
+  background: #1c232e;
+  color: #647274;
+}
+
+.punctuation {
+  position: absolute;
+  top: 0;
+  left: 3px;
+}
+
+button[name="Backquote"] {
+  color: #ffffff;
+}
+
+button[name="Backspace"],
+button[name="CapsLock"],
+button[name="ShiftLeft"]{
+  width: 14%;
+}
+
+button[name="Enter"]{
+  width: 12%;
+}
+
+button[name="Tab"]{
+  width: 7%;
+}
+
+button[name="Space"] {
+  width: 41%;
+}
+
+button[name="ControlLeft"],
+button[name="ControlRight"]{
+  width: 9%;
+}
+
+.keyboard-key:active {
+  background: #5571ee;
+}

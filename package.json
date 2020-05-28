@@ -1,0 +1,18 @@
+{
+  "name": "virtual-keyboard",
+  "version": "1.0.0",
+  "description": "Virtual Keyboard",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2"
+  },
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "node node_modules/eslint/bin/eslint.js ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
